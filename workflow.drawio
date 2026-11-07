@@ -1,0 +1,102 @@
+<mxfile host="65bd71144e">
+    <diagram id="fcCgdO7UQnBdGxpycAzh" name="Page-1">
+        <mxGraphModel dx="1327" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;sketch=1;curveFitting=1;jiggle=2;" value="User" vertex="1">
+                    <mxGeometry height="60" width="120" x="330" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;sketch=1;curveFitting=1;jiggle=2;" value="Answerer" vertex="1">
+                    <mxGeometry height="60" width="120" x="330" y="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;sketch=1;curveFitting=1;jiggle=2;" value="Fact Checker" vertex="1">
+                    <mxGeometry height="60" width="120" x="330" y="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-6" edge="1" parent="1" source="FLu7FPU5LsEAb-chIU8s-1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;rounded=1;sketch=1;curveFitting=1;jiggle=2;" target="FLu7FPU5LsEAb-chIU8s-4" value="">
+                    <mxGeometry relative="1" width="100" as="geometry">
+                        <Array as="points"/>
+                        <mxPoint x="380" y="220" as="sourcePoint"/>
+                        <mxPoint x="480" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-7" edge="1" parent="1" source="FLu7FPU5LsEAb-chIU8s-4" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" target="FLu7FPU5LsEAb-chIU8s-5" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="390" y="210" as="sourcePoint"/>
+                        <mxPoint x="460" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;sketch=1;curveFitting=1;jiggle=2;" value="Incorrect Fact" vertex="1">
+                    <mxGeometry height="60" width="120" x="250" y="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;sketch=1;curveFitting=1;jiggle=2;" value="Correct Fact" vertex="1">
+                    <mxGeometry height="60" width="120" x="410" y="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-12" edge="1" parent="1" source="FLu7FPU5LsEAb-chIU8s-5" style="endArrow=classic;html=1;rounded=1;exitX=0.513;exitY=1.056;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" target="FLu7FPU5LsEAb-chIU8s-9" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="340" y="320"/>
+                        </Array>
+                        <mxPoint x="410" y="350" as="sourcePoint"/>
+                        <mxPoint x="460" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-13" edge="1" parent="1" source="FLu7FPU5LsEAb-chIU8s-5" target="FLu7FPU5LsEAb-chIU8s-10" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="460" y="320"/>
+                        </Array>
+                        <mxPoint x="420.0000000000001" y="290" as="sourcePoint"/>
+                        <mxPoint x="478.18181818181824" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;sketch=1;curveFitting=1;jiggle=2;" value="Gives To User" vertex="1">
+                    <mxGeometry height="60" width="120" x="425" y="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-16" edge="1" parent="1" source="FLu7FPU5LsEAb-chIU8s-10" style="endArrow=classic;html=1;rounded=1;entryX=0.533;entryY=-0.019;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" target="FLu7FPU5LsEAb-chIU8s-15" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="410" y="500" as="sourcePoint"/>
+                        <mxPoint x="460" y="450" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-26" edge="1" parent="1" source="FLu7FPU5LsEAb-chIU8s-18" style="edgeStyle=none;rounded=1;html=1;sketch=1;curveFitting=1;jiggle=2;" target="FLu7FPU5LsEAb-chIU8s-25" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-28" edge="1" parent="1" source="FLu7FPU5LsEAb-chIU8s-18" style="edgeStyle=none;rounded=1;html=1;sketch=1;curveFitting=1;jiggle=2;" target="FLu7FPU5LsEAb-chIU8s-24" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;sketch=1;curveFitting=1;jiggle=2;" value="Attempts remain?" vertex="1">
+                    <mxGeometry height="60" width="120" x="250" y="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-19" edge="1" parent="1" source="FLu7FPU5LsEAb-chIU8s-9" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" target="FLu7FPU5LsEAb-chIU8s-18" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="360" y="410" as="sourcePoint"/>
+                        <mxPoint x="410" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;sketch=1;curveFitting=1;jiggle=2;" value="Gives Up" vertex="1">
+                    <mxGeometry height="60" width="120" x="250" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;sketch=1;curveFitting=1;jiggle=2;" value="Yes: retry" vertex="1">
+                    <mxGeometry height="60" width="120" x="80" y="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-27" edge="1" parent="1" source="FLu7FPU5LsEAb-chIU8s-25" style="edgeStyle=none;rounded=1;html=1;sketch=1;curveFitting=1;jiggle=2;" target="FLu7FPU5LsEAb-chIU8s-21" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;sketch=1;curveFitting=1;jiggle=2;" value="No: limit reached" vertex="1">
+                    <mxGeometry height="60" width="120" x="250" y="590" as="geometry"/>
+                </mxCell>
+                <mxCell id="FLu7FPU5LsEAb-chIU8s-30" edge="1" parent="1" source="FLu7FPU5LsEAb-chIU8s-24" style="curveGeometry=1;endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" target="FLu7FPU5LsEAb-chIU8s-4" value="">
+                    <mxGeometry height="50" relative="1" width="50" x="-0.1535" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="140" y="360"/>
+                            <mxPoint x="250" y="260"/>
+                        </Array>
+                        <mxPoint x="220" y="410" as="sourcePoint"/>
+                        <mxPoint x="270" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
